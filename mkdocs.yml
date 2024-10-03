@@ -1,0 +1,23 @@
+site_name: Aproximación de integrales mediante RK4
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list:
+  - md_in_html:
+
+extra_javascript:
+  - javascripts/mathkax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+nav:
+  - index.md
+  - explanation.md
+  - tutorials.md
+  - reference.md
+
